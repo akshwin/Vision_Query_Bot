@@ -21,7 +21,7 @@ def get_gemini_response(input,image):
         return response.text
 
 # STREAMLIT PAGE 
-st.set_page_config(page_title = "The Pic Analyzer")
+st.set_page_config(page_title = "Vision Query Bot ")
 st.header("The Pic Analyzer 📱")
 
 # Sidebar 
