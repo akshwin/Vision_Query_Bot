@@ -22,11 +22,11 @@ def get_gemini_response(input,image):
 
 # STREAMLIT PAGE 
 st.set_page_config(page_title = "Vision Query Bot ")
-st.header("The Pic Analyzer 📱")
+st.header("Vision Query Bot 📱")
 
 # Sidebar 
 
-st.sidebar.header("About The Pic Analyser :")
+st.sidebar.header("About Vision Query Bot :")
 st.sidebar.write("✍️ You can upload the any image and ask any question about the image😎 .")
 st.sidebar.write("✍️ This is a Application is built using Gemini-Pro-Vision model 🤖 .")
 st.sidebar.write("✍️ This app is deployed in streamlit 💻 .")
